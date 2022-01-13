@@ -18,4 +18,4 @@ az role assignment create --assignee $appid --role Owner --scope /subscriptions/
 
 Write-Host $app
 
-$app | export-csv "credentials.txt"
+$app | Set-Content -Path "credentials.txt"
