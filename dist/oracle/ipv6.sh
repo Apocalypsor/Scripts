@@ -1,5 +1,7 @@
 apt update
-apt install wget sudo screen -y
+apt install wget sudo screen net-tools -y
+
+ifconfig
 
 read -p "Enter Interface: " interface
 read -p "Enter IPv6 Address: " ipv6

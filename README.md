@@ -21,5 +21,5 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://dist.ml/azure/cre
 ### 添加IPv6
 
 ```bash
-apt install curl net-tools -y && ifconfig && curl https://dist.ml/oracle/ipv6.sh | bash
+apt install curl -y && curl https://dist.ml/oracle/ipv6.sh > ipv6.sh && bash ipv6.sh
 ```
