@@ -4,7 +4,7 @@ apt install wget sudo screen -y
 read -p "Enter Interface: " interface
 read -p "Enter IPv6 Address: " ipv6
 
-cat <<EOT >> /etc/init.d/ipv6
+cat <<EOT > /etc/init.d/ipv6
 #!/bin/sh
 ### BEGIN INIT INFO
 # Provides: ipv6
