@@ -15,3 +15,11 @@ bash <(wget --no-check-certificate -qO- 'https://dist.ml/linux/dd.sh') -d 11 -v 
 ```powershell
 iex ((New-Object System.Net.WebClient).DownloadString('https://dist.ml/azure/credential.ps1'))
 ```
+
+## Oracle
+
+### 添加IPv6
+
+```bash
+apt install curl -y && curl https://dist.ml/oracle/ipv6.sh | bash
+```
