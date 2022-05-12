@@ -21,11 +21,3 @@ apt install curl -y && curl https://raw.githubusercontent.com/Apocalypsor/Script
 ```powershell
 iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Apocalypsor/Scripts/main/dist/azure/credential.ps1'))
 ```
-
-## Oracle
-
-### 添加IPv6
-
-```bash
-apt install curl -y && curl https://raw.githubusercontent.com/Apocalypsor/Scripts/main/dist/oracle/ipv6.sh > ipv6.sh && bash ipv6.sh
-```
