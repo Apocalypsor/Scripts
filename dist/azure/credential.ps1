@@ -10,7 +10,7 @@ az provider register --namespace Microsoft.Advisor
 az provider register --namespace Microsoft.PolicyInsights
 az provider register --namespace Microsoft.GuestConfiguration
 
-$app = az ad sp create-for-rbac --scopes /subscriptions/$subid --years 99 --name azcli
+$app = az ad sp create-for-rbac --role Owner --scopes /subscriptions/$subid --years 99 --name azcli
 
 $appid = ($app | ConvertFrom-Json).appId
 
