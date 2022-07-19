@@ -5,7 +5,7 @@
 ### DD脚本
 
 ```bash
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/Apocalypsor/Scripts/main/dist/linux/dd.sh') -d 11 -v 64 -p "自定义root密码" -port "自定义ssh端口" -cmd "base64后的命令内容"
+bash <(wget --no-check-certificate -qO- 'https://cxthhhhh.com/CXT-Library/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh') -d 11 -v 64 -p "自定义root密码" -port "自定义ssh端口" -cmd "base64后的命令内容"
 ```
 
 ### 测试脚本
